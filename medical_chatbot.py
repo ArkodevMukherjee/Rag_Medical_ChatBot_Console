@@ -9,14 +9,14 @@ import sys
 import os
 
 if not os.getenv("GOOGLE_API_KEY"):
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyCxjoaEpXuLqK5TsRB7MG1k8dCA2XJuZe0"
+    os.environ["GOOGLE_API_KEY"] = ""
 
 import os
 
 from pinecone import Pinecone
 
 if not os.getenv("PINECONE_API_KEY"):
-    os.environ["PINECONE_API_KEY"] = "pcsk_4v8jQZ_QBcw4xeV55bkmUUFzVbMQxLrfjrrhrT6EJDrziMaYzfBF1cuGbtFA1VkZMH9N3j"
+    os.environ["PINECONE_API_KEY"] = ""
 
 pinecone_api_key = os.environ.get("PINECONE_API_KEY")
 
